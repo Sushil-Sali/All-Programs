@@ -1,9 +1,15 @@
 let obj = {
-    name: "Joe",
-    age: "22",
-    city: "Pune",
-    country: "India"
-}
+  name: "Joe",
+  age: 22,
+  city: "Pune",
+  state: "Maharashtra",
+};
+
 for (let i in obj) {
-    console.log(i, obj[i])
+  console.log(`${i} : ${obj[i]}`);
 }
+
+// let key = Object.keys(obj);
+// for (let i = 0; i < key.length; i++) {
+//   console.log(key[i], obj[key[i]]);
+// }
