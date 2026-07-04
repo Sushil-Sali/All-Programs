@@ -14,4 +14,5 @@ for (let i in obj) {
 //   console.log(key[i], obj[key[i]]);
 // }
 
+console.log(Object.keys(obj));
 console.log(Object.values(obj));
