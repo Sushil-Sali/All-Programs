@@ -18,21 +18,32 @@
 // console.log(Object.values(obj));
 // console.log(Object.entries(obj));
 
-let student = {
-  name: "Rahul",
-  age: 22,
-  city: "Pune",
-  state: "Maharashtra",
-  marks: [70, 80, 90, 92],
-};
+// let student = {
+//   name: "Rahul",
+//   age: 22,
+//   city: "Pune",
+//   state: "Maharashtra",
+//   marks: [70, 80, 90, 92],
+// };
 
-console.log(Object.keys(student));
-console.log(Object.values(student));
-console.log(Object.entries(student));
+// console.log(Object.keys(student));
+// console.log(Object.values(student));
+// console.log(Object.entries(student));
 
-// console.log(student.marks[0]);
-// console.log(student.marks[1]);
+// // console.log(student.marks[0]);
+// // console.log(student.marks[1]);
 
-for (let i = 0; i < student.marks.length; i++) {
-  console.log(student.marks[i]);
+// for (let i = 0; i < student.marks.length; i++) {
+//   console.log(student.marks[i]);
+// }
+
+let student = [
+  { name: "sushil", marks: 87 },
+  { name: "rahul", marks: 90 },
+];
+
+console.log(student[0]);
+console.log(student[1].marks);
+for (let i = 0; i < student.length; i++) {
+  console.log(student[i]);
 }
