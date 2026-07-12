@@ -37,21 +37,21 @@
 //   console.log(student.marks[i]);
 // }
 
-let student = [
-  { name: "sushil", marks: 87 },
-  { name: "rahul", marks: 90 },
-  { name: "Yogesh", marks: 88 },
-  { name: "Rushi", marks: 95 },
-  { name: "Rushabh", marks: 80 },
-];
+// let student = [
+//   { name: "sushil", marks: 87 },
+//   { name: "rahul", marks: 90 },
+//   { name: "Yogesh", marks: 88 },
+//   { name: "Rushi", marks: 95 },
+//   { name: "Rushabh", marks: 80 },
+// ];
 
-// console.log(student[0]);
-// console.log(student[1].marks);
-for (let i = 0; i < student.length; i++) {
-  if (student[i].marks > 90) {
-    console.log(student[i]);
-  }
-}
+// // console.log(student[0]);
+// // console.log(student[1].marks);
+// for (let i = 0; i < student.length; i++) {
+//   if (student[i].marks > 90) {
+//     console.log(student[i]);
+//   }
+// }
 
 let shows = [
   { type: "movie", name: "Avengers", rating: 4.5 },
