@@ -53,16 +53,16 @@
 //   }
 // }
 
-// let shows = [
-//   { type: "movie", name: "Avengers", rating: 4.5 },
-//   { type: "TV Show", name: "TMKO", rating: 4.8 },
-//   { type: "movie", name: "Inception", rating: 4.9 },
-//   { type: "TV Show", name: "Friends", rating: 4.7 },
-// ];
-// let res = [];
-// for (let i = 0; i < shows.length; i++) {
-//   if (shows[i].type == "movie") {
-//     res.push(shows[i]);
-//   }
-// }
-// console.log(res);
+let shows = [
+  { type: "movie", name: "Avengers", rating: 4.5 },
+  { type: "TV Show", name: "TMKO", rating: 4.8 },
+  { type: "movie", name: "Inception", rating: 4.9 },
+  { type: "TV Show", name: "Friends", rating: 4.7 },
+];
+let res = [];
+for (let i = 0; i < shows.length; i++) {
+  if (shows[i].type == "movie") {
+    res.push(shows[i]);
+  }
+}
+console.log(res);
